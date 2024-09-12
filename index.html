@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Header section with title and form for adding tasks -->
+      <header>
+        <h1>Create your Todo-List</h1>
+        <!-- Form to input and submit tasks -->
+        <form id="task-form">
+          <!-- Input field for task description -->
+          <input type="text" placeholder="What are you tasks for today?"id="inp"/>
+          <!-- Button to add the task -->
+          <button class="btn">Add</button>
+        </form>
+      </header>
+      <!-- Main section where tasks will be displayed -->
+      <main>
+        <!-- Container for the list of tasks -->
+        <div class="task"></div>
+      </main>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
